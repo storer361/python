@@ -1,10 +1,25 @@
-f1="mehadi-10 jan"
-f2="bilal-15 march"
-f3="sufyan-5 octuber"
-f4="essa-8 june"
-f5="anwar-12 july"
-print(f1)
-print(f2)
-print(f3)
-print(f4)
-print(f5)
+a = 10
+
+b = -10
+
+c = 0
+
+# First check
+
+if a > 0 or b > 0:
+
+    print("Either of the number is greater than 0")
+
+else:
+
+     print("No number is greater than 0")
+
+# Second check
+
+if b > 0 or c > 0:
+
+     print("Either of the number is greater than 0")
+
+else:
+
+      print("No number is greater than 0")
