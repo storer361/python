@@ -10,13 +10,13 @@ screen.setup(400, 400)
 
 # Create a turtle object
 
-polygon = turtle.Turtle()
+square = turtle.Turtle()
 
 # Polygon properties
 
-num_sides = 6
+num_sides = 4
 
-side_length = 70
+side_length = 180
 
 angle = 360.0 / num_sides
 
@@ -24,8 +24,8 @@ angle = 360.0 / num_sides
 
 for i in range(num_sides):
 
-    polygon.forward(side_length)
+    square.forward(side_length)
 
-    polygon.right(angle)
+    square.right(angle)
 
 turtle.done()
